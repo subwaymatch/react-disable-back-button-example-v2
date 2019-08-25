@@ -1,0 +1,71 @@
+body {
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  background-color: white;
+
+  > div {
+    padding-left: 20px;
+  }
+}
+
+.json-box {
+  margin-top: 30px; 
+  background: #f5f5f5; 
+  border: 1px solid #eee; 
+  padding: 10px 15px; 
+
+  h2 { 
+    font-size: 1.1rem; 
+    margin-top: 0; 
+    padding: 0 0 6px 0; 
+    border-bottom: 2px dotted #aaa; 
+  }
+}
+
+pre {
+  font-size: 0.9rem; 
+
+}
+
+h1 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.2rem;
+}
+
+input[type="text"] {
+  display: inline-block;
+  width: 420px;
+  font-size: 1.2rem;
+  padding: 10px 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+::placeholder {
+  color: lightgrey;
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #2ECC71;
+  background-color: transparent;
+  margin-top: 20px;
+  padding: 10px 0;
+  border: none; 
+  border-bottom: 3px solid #2ECC71;
+  
+  &:hover {
+    color: #58D68D; 
+    border-color: #58D68D; 
+    border-bottom-style: dashed; 
+  }
+}
